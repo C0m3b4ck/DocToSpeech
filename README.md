@@ -165,6 +165,9 @@ DocToSpeech/
   requirements-csm.txt        # Separate venv
   requirements-openvoice.txt  # Separate venv
 ```
+## Known bugs
+* "Failed to load Resemble Chatterbox: 'NoneType' object is not callable" error when TTS generation is initiated for Chatterbox
+ 
 
 ## Credits
 
