@@ -1,0 +1,25 @@
+# ========================= SESAME CSM (separate venv) =========================
+# Why separate: needs transformers>=4.45, may conflict with coqui-tts 0.25.x (<=4.46.2)
+# Works fine with coqui-tts 0.26.x (>=4.47.0)
+#
+# Setup:
+#   python -m venv .venv-csm
+#   source .venv-csm/bin/activate
+#   pip install -r requirements-csm.txt
+#   huggingface-cli login   # free account + accept Meta Llama license
+#
+# Then run doctospeech from this venv.
+
+epub2txt
+docx2txt
+pdftotext
+html2text
+pyfiglet
+tqdm
+rich
+ollama
+
+torch>=2.1
+torchaudio>=2.1.0
+transformers>=4.45
+soundfile

@@ -1,0 +1,17 @@
+# ========================= CORE =========================
+epub2txt
+docx2txt
+pdftotext
+html2text
+pyfiglet
+tqdm
+rich
+ollama
+
+# ========================= PYTORCH =========================
+torch>=2.1
+torchaudio>=2.1.0
+
+# ========================= COQUI TTS =========================
+# Provides: XTTS v2, Bark, VITS, YourTTS
+coqui-tts>=0.25.0

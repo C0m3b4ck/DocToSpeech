@@ -1,0 +1,3 @@
+# StyleTTS 2 - compatible with coqui-tts venv
+# Just add this on top of requirements-coqui.txt
+styletts2

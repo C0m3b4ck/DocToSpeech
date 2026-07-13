@@ -1,0 +1,26 @@
+# ========================= OPENVOICE (separate venv) =========================
+# Why separate: needs git clone + MeloTTS, cleaner to isolate
+#
+# Setup:
+#   python -m venv .venv-openvoice
+#   source .venv-openvoice/bin/activate
+#   pip install -r requirements-openvoice.txt
+#   git clone https://github.com/myshell-ai/OpenVoice.git
+#   cd OpenVoice && pip install -e . && cd ..
+#   pip install git+https://github.com/myshell-ai/MeloTTS.git
+#   python -c "from huggingface_hub import snapshot_download; snapshot_download(repo_id='myshell-ai/OpenVoiceV2', local_dir='checkpoints_v2')"
+#   python -m unidic download
+#
+# Then run doctospeech from this venv.
+
+epub2txt
+docx2txt
+pdftotext
+html2text
+pyfiglet
+tqdm
+rich
+ollama
+
+torch>=2.1
+torchaudio>=2.1.0

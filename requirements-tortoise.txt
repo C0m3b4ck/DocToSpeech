@@ -1,0 +1,23 @@
+# ========================= TORTOISE (separate venv) =========================
+# Why separate: needs transformers==4.31, conflicts with coqui-tts (>=4.43)
+#
+# Setup:
+#   python -m venv .venv-tortoise
+#   source .venv-tortoise/bin/activate
+#   pip install -r requirements-tortoise.txt
+#
+# Then run doctospeech from this venv.
+
+epub2txt
+docx2txt
+pdftotext
+html2text
+pyfiglet
+tqdm
+rich
+ollama
+
+torch>=2.1
+torchaudio>=2.1.0
+tortoise-tts
+transformers==4.31.0

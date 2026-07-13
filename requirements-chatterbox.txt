@@ -1,0 +1,22 @@
+# ========================= CHATTERBOX (separate venv) =========================
+# Why separate: pins torch==2.6.0, conflicts with coqui-tts torch version
+#
+# Setup:
+#   python -m venv .venv-chatterbox
+#   source .venv-chatterbox/bin/activate
+#   pip install -r requirements-chatterbox.txt
+#
+# Then run doctospeech from this venv.
+
+epub2txt
+docx2txt
+pdftotext
+html2text
+pyfiglet
+tqdm
+rich
+ollama
+
+torch==2.6.0
+torchaudio==2.6.0
+chatterbox-tts
